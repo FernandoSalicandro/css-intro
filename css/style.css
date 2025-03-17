@@ -61,3 +61,24 @@ h1 {
 .color-row1 {
     background-color: rgb(199, 226, 244);
 }
+
+footer {
+    color: rgb(128, 128, 128);
+}
+/* inserisco le due immagini finali con testo sovrapposto */
+
+.image-container {
+    position: relative;
+}
+.overlay-text {
+    position: absolute;
+    color: white;
+    top: 1%;
+    left: 1%;
+}
+.overlay-text-second {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 1%;
+}
