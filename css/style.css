@@ -4,15 +4,18 @@ header {
     background-image: url(../img/pattern.png);
     background-color: rgb(41, 157, 195);
 }
+
 /* Definisco lo stile del logo inserito in html */
 .logo-testuale {
     width: 200px;
     margin-top: 150px;
 }
+
 /* riduco margine del titolo rispetto alle info */
 h1 {
     margin-bottom: 0em;
 }
+
 /* assegno caratteristiche uniche ripetute alle informazioni sull'autore */
 #article-author-info {
     margin-bottom: 0em;
@@ -20,6 +23,7 @@ h1 {
     font-weight: 200;
     color: rgb(104, 102, 102);
 }
+
 /* assegno informazioni uniche ripetute alle informazioni sulla data */
 #article-date {
     margin-top: 0em;
@@ -31,10 +35,12 @@ h1 {
 .author-name {
     color: rgb(0, 166, 255);
 }
+
 /* allineamento immagini di preview aricolo */
 .article-preview-images {
     text-align: left;
 }
+
 /* impostazione margini e stile dei credits per le immagini di preview */
 .photo-preview-description {
     margin-top: 0em;
@@ -46,17 +52,26 @@ h1 {
 .article-table {
     border-collapse: collapse;
 }
+
 .highlighted-text {
-   background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 255, 0);
 }
+
 /* imposto lo stile dell'intestazione di tabella */
 .headrow {
     background-color: rgb(135, 206, 250);
     text-align: left;
 }
+
 .th-text {
     color: white;
 }
+
+.w-50 {
+    width: 50%;
+    color: white;
+}
+
 /* imposto colori delle righe di tabella */
 .color-row1 {
     background-color: rgb(199, 226, 244);
@@ -65,20 +80,28 @@ h1 {
 footer {
     color: rgb(128, 128, 128);
 }
+
 /* inserisco le due immagini finali con testo sovrapposto */
 
-.image-container {
+.image-container-1 {
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 200px;
     position: relative;
 }
-.overlay-text {
-    position: absolute;
-    color: white;
-    top: 1%;
-    left: 1%;
+
+.image-container-2 {
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 200px;
 }
-.overlay-text-second {
-    position: absolute;
+
+.overlay-text {
     color: white;
-    top: 50%;
-    left: 1%;
+    padding: 20px;
+}
+
+.overlay-text-second {
+    color: white;
+    padding: 20px;
 }
