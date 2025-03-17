@@ -1,0 +1,11 @@
+/* Definisco lo stile dell'header */
+header {
+    height: 200px;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(41, 157, 195);
+}
+/* Definisco lo stile del logo inserito in html */
+.logo-testuale {
+    width: 200px;
+    margin-top: 150px;
+}
