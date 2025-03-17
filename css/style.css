@@ -42,6 +42,22 @@ h1 {
     color: rgb(74, 72, 72);
 }
 
+/* stile tabella */
+.article-table {
+    border-collapse: collapse;
+}
 .highlighted-text {
    background-color: rgb(255, 255, 0);
+}
+/* imposto lo stile dell'intestazione di tabella */
+.headrow {
+    background-color: rgb(135, 206, 250);
+    text-align: left;
+}
+.th-text {
+    color: white;
+}
+/* imposto colori delle righe di tabella */
+.color-row1 {
+    background-color: rgb(199, 226, 244);
 }
