@@ -9,3 +9,26 @@ header {
     width: 200px;
     margin-top: 150px;
 }
+/* riduco margine del titolo rispetto alle info */
+h1 {
+    margin-bottom: 0em;
+}
+/* assegno caratteristiche uniche ripetute alle informazioni sull'autore */
+#article-author-info {
+    margin-bottom: 0em;
+    margin-top: 0em;
+    font-weight: 200;
+    color: rgb(104, 102, 102);
+    text
+}
+/* assegno informazioni uniche ripetute alle informazioni sulla data */
+#article-date {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+}
+
+.author-name {
+    color: rgb(0, 166, 255);
+}
